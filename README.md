@@ -6,6 +6,8 @@
 **WiDiNet (Wild-to-Directional Network)** 과 **SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering)** 기법을 포함하고 있습니다.
 ![Overall Process of WiDiNet](assets/Figure1.PNG)
 
+Overall Process of WiDiNet
+
 ## 이론적 배경
 - ### WiDiNet
 WiDiNet은 복잡한 환경 조명을 단순한 방향성 조명으로 변환하는 프로세스입니다. 이는 전통적인 보정되지 않은 광도 스테레오가 가정하는 것과 유사합니다. 환경 조명을 추출하기 위해, WiDiNet은 요소별 최소 풀링과 재조명을 사용하여 환경 맵을 생성합니다. 이 접근 방식의 주요 장점은 표면 정규 추정에서 핵심 요소인 조명을 추정할 수 있다는 것입니다.
@@ -19,13 +21,14 @@ SCPS-NIR은 역렌더링 접근 방식을 사용하여 조명과 표면 정규�
 
 ![Detailed Process of Each Module of WiDiNet](assets/Figure2.PNG)
 
+Detailed Process of Each Module of WiDiNet
+
 ## 데이터셋과 평가
 본 프로젝트는 WiDiNet과 SCPS-NIR 방법의 성능을 검증하기 위해 다양한 데이터셋을 활용합니다. 
 이 데이터셋들은 복잡하고 다양한 조명 조건을 포함하여 광도 스테레오 네트워크의 강인함과 정확성을 시험합니다. 
 아래는 사용된 데이터셋과 해당 평가 지표입니다:
 
 ### 데이터셋
-
 - **PS-WL (Photometric Stereo under Wild Lighting)**: 이 데이터셋에는 제어되지 않은 다양한 조명 조건 하에서 촬영된 이미지들이 포함되어 있습니다. 전통적인 광도 스테레오 기술이 어려움을 겪는 실세계 시나리오를 모방합니다.
 - **DiLiGenT**: 광도 스테레오에 대한 널리 인정받는 벤치마크로, 다양한 재료와 복잡한 기하학적 형태의 객체를 포함하고 있어 네트워크 성능을 평가하기 위한 포괄적인 실험 환경을 제공합니다.
 
@@ -35,8 +38,10 @@ SCPS-NIR은 역렌더링 접근 방식을 사용하여 조명과 표면 정규�
 - **질적 평가**: 정량적 지표 외에도 재조명된 이미지와 오차 맵의 시각적 검토는 네트워크의 질적 성능에 대한 통찰력을 제공합니다. 특히 까다로운 조명 및 표면 조건을 다루는 능력에 대해 중요합니다.
 
 ![실제 데이터셋에 대한 질적 결과](assets/Figure4.PNG)
+실제 데이터셋에 대한 질적 결과
 
 ![PS-WL 데이터셋에 대한 질적 결과](assets/Figure5.PNG)
+PS-WL 데이터셋에 대한 질적 결과
 
 위에서 언급한 데이터셋과 지표들은 본 방법들이 최첨단 성능을 달성할 뿐만 아니라 
 실용적인 응용에서도 높은 신뢰성을 유지하는 것을 증명하기 위한 엄격한 실험에 사용되었습니다.
