@@ -4,6 +4,7 @@
 ## 개요
 이 프로젝트는 복잡한 조명 환경 하에서 보정되지 않은 광도 스테레오 문제를 해결하기 위한 혁신적인 접근법을 제시합니다. 
 **WiDiNet (Wild-to-Directional Network)** 과 **SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering)** 기법을 포함하고 있습니다.
+![Overall Process of WiDiNet](assets/Figure1.PNG)
 
 ## 이론적 배경
 - ### WiDiNet
@@ -15,6 +16,9 @@ SCPS-NIR은 역렌더링 접근 방식을 사용하여 조명과 표면 정규�
 ## 주요 특징
 - **재조명 모듈**: 다양한 방향성 조명 하에서 이미지를 생성합니다.
 - **WtD 모듈 (Wild-to-Directional)**: 이미지에서 환경 조명을 추출하여 방향성 광원 이미지로 변환합니다.
+
+![Detailed Process of Each Module of WiDiNet](assets/Figure2.PNG)
+
 
 ## 데이터셋과 평가
 - 다양한 데이터셋에서 우수한 성능을 입증하였습니다.
@@ -51,6 +55,10 @@ WiDiNet과 SCPS-NIR은 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 뛰어�
 WiDiNet + SCPS-NIR 방법이 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 상당히 낮은 MAE를 기록하여 높은 성능을 입증합니다.
 
 ## 전체 프로세스 구조
+![Qualitative Results on Real Dataset Under Wild Lighting](assets/Figure4.PNG)
+
+![Qualitative Results on PS-WL](assets/Figure5.PNG)
+
 ![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/e94f1221-020e-4226-89a4-55c66c87318b)
 
 ![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/495d55ba-d9b0-4048-8a05-0abfe603bd48)
