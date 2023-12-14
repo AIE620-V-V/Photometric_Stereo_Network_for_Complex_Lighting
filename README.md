@@ -1,10 +1,13 @@
 # Photometric_Stereo_Network_for_Complex_Lighting
 Sogang Univ AIE6202 project . Photometric Stereo Network for Complex Lighting
-개요
-이 프로젝트는 복잡한 조명 환경 하에서 보정되지 않은 광도 스테레오 문제를 해결하기 위한 혁신적인 접근법을 제시합니다. 여기에는 **WiDiNet (Wild-to-Directional Network)**과 **SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering)**이 포함됩니다.
+
+** 개요 ** 
+이 프로젝트는 복잡한 조명 환경 하에서 보정되지 않은 광도 스테레오 문제를 해결하기 위한 혁신적인 접근법을 제시합니다. 
+여기에는 **WiDiNet (Wild-to-Directional Network)**과 **SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering)**이 포함됩니다.
 
 이론적 배경
-WiDiNet은 복잡한 환경 조명을 단순한 방향성 조명으로 변환하는 프로세스이며, SCPS-NIR은 조명과 표면 정규를 추정하는 역렌더링 접근 방식을 사용합니다.
+WiDiNet (Wild-to-Directional Network): 복잡한 환경 조명을 방향성 조명으로 단순화하여 표면 정규 추정의 정확도를 향상시키는 새로운 프레임워크입니다.
+SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering): 조명과 표면 정규를 추정하는 역렌더링 접근 방식을 구현한 최신 기법입니다.
 
 주요 특징
 재조명 모듈: 다양한 방향성 조명 하에서 이미지를 생성합니다.
@@ -36,6 +39,10 @@ WiDiNet과 SCPS-NIR은 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 우수�
 | UniPS [10] | 6.41 | 7.43 | 20.88 | 11.23 | 7.72 | 28.23 | 23.67 | 11.41 | 9.80 | 20.08 | 14.69 |
 | WtD + SCPS-NIR [12] | 4.15 | 2.89 | 9.70 | 10.14 | 4.54 | 8.73 | 15.92 | 5.30 | 4.55 | 10.88 | 7.68 |
 | WiDiNet + SCPS-NIR [12] | 0.49 | 2.19 | 9.47 | 5.02 | 4.08 | 7.25 | 14.25 | 5.99 | 3.78 | 10.09 | 6.26 |
+
+이 데이터는 WiDiNet과 SCPS-NIR이 다양한 데이터셋에서 어떻게 성능을 발휘하는지 보여줍니다. 
+각 행은 다른 방법들의 평균 평균 각도 오차(MAE)를 나타냅니다. 
+WiDiNet + SCPS-NIR 방법이 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 상당히 낮은 MAE를 기록하여 높은 성능을 입증합니다.
 
 전체 프로세스 구조
 ![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/e94f1221-020e-4226-89a4-55c66c87318b)
