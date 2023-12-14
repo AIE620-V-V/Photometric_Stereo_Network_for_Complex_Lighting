@@ -1,27 +1,30 @@
 # Photometric_Stereo_Network_for_Complex_Lighting
-Sogang Univ AIE6202 project . Photometric Stereo Network for Complex Lighting
+> Sogang Univ AIE6202 project . Photometric Stereo Network for Complex Lighting
 
-** 개요 ** 
+## 개요
 이 프로젝트는 복잡한 조명 환경 하에서 보정되지 않은 광도 스테레오 문제를 해결하기 위한 혁신적인 접근법을 제시합니다. 
-여기에는 **WiDiNet (Wild-to-Directional Network)**과 **SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering)**이 포함됩니다.
+**WiDiNet (Wild-to-Directional Network)** 과 **SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering)** 기법을 포함하고 있습니다.
 
-이론적 배경
-WiDiNet (Wild-to-Directional Network): 복잡한 환경 조명을 방향성 조명으로 단순화하여 표면 정규 추정의 정확도를 향상시키는 새로운 프레임워크입니다.
-SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering): 조명과 표면 정규를 추정하는 역렌더링 접근 방식을 구현한 최신 기법입니다.
+## 이론적 배경
+- **WiDiNet (Wild-to-Directional Network)**: 복잡한 환경 조명을 단순한 방향성 조명으로 변환하여 표면 정규 추정의 정확도를 향상시키는 프레임워크입니다.
+- **SCPS-NIR**: 조명과 표면 정규를 추정하는 역렌더링 접근 방식을 구현한 최신 기법입니다.
 
-주요 특징
-재조명 모듈: 다양한 방향성 조명 하에서 이미지를 생성합니다.
-WtD 모듈 (Wild-to-Directional): 이미지에서 환경 조명을 추출하여 방향성 광원 이미지로 변환합니다.
-데이터셋과 평가: 다양한 데이터셋에서 뛰어난 성능을 입증하였습니다.
-환경 설정
-WiDiNet과 SCPS-NIR에 대한 환경 설정은 각각의 GitHub 리포지토리를 참고하여 진행해야 합니다.
+## 주요 특징
+- **재조명 모듈**: 다양한 방향성 조명 하에서 이미지를 생성합니다.
+- **WtD 모듈 (Wild-to-Directional)**: 이미지에서 환경 조명을 추출하여 방향성 광원 이미지로 변환합니다.
 
-WiDiNet GitHub: IAN Repository (https://github.com/NK-CS-ZZL/IAN)
-SCPS-NIR GitHub: SCPS-NIR Repository (https://github.com/junxuan-li/SCPS-NIR)
+## 데이터셋과 평가
+- 다양한 데이터셋에서 우수한 성능을 입증하였습니다.
 
-실험 결과
-WiDiNet과 SCPS-NIR은 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 우수한 성능을 보여주었습니다. 아래는 평균 MAE를 나타내는 표입니다.
-### PS-WL 데이터셋
+## 환경 설정
+각 기법에 대한 환경 설정은 아래의 GitHub 리포지토리에서 확인할 수 있습니다.
+- [WiDiNet GitHub: IAN Repository](https://github.com/NK-CS-ZZL/IAN)
+- [SCPS-NIR GitHub: SCPS-NIR Repository](https://github.com/junxuan-li/SCPS-NIR)
+
+## 실험 결과
+WiDiNet과 SCPS-NIR은 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 뛰어난 성능을 보여주었습니다.
+
+### PS-WL 데이터셋 결과
 
 | 방법 | Dragon | Duck | Game | Mask | Ornament | Pig | Ring | Ring2 | 평균 MAE |
 |------|--------|------|------|------|----------|-----|------|-------|----------|
@@ -44,7 +47,7 @@ WiDiNet과 SCPS-NIR은 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 우수�
 각 행은 다른 방법들의 평균 평균 각도 오차(MAE)를 나타냅니다. 
 WiDiNet + SCPS-NIR 방법이 PS-WL 데이터셋과 DiLiGenT 벤치마크에서 상당히 낮은 MAE를 기록하여 높은 성능을 입증합니다.
 
-전체 프로세스 구조
+## 전체 프로세스 구조
 ![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/e94f1221-020e-4226-89a4-55c66c87318b)
 
 ![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/495d55ba-d9b0-4048-8a05-0abfe603bd48)
