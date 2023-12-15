@@ -84,7 +84,7 @@ Special thanks are extended to the contributors of the PS-WL and DiLiGenT datase
 The full process involves capturing images under wild lighting and processing them through WiDiNet and SCPS-NIR to obtain accurate normal maps.
 ![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/e94f1221-020e-4226-89a4-55c66c87318b)
 
-![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/495d55ba-d9b0-4048-8a05-0abfe603bd48)
-
 
 ## References
+TIP2022: IAN(Designing An Illumination-Aware Network for Deep Image Relighting) [Github](https://github.com/nk-cs-zzl/ian) [Paper](https://arxiv.org/abs/2207.10582) [Demos](https://github.com/nk-cs-zzl/ian#demos)
+ECCV2022: SCPS-NIR(Self-calibrating Photometric Stereo by Neural Inverse Rendering) [Github](https://github.com/junxuan-li/SCPS-NIR) [Paper](https://arxiv.org/abs/2207.07815)
