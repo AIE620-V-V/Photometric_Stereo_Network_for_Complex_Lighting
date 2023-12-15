@@ -26,6 +26,13 @@ A self-calibrating method that estimates both the lighting and the normals using
 
 ## Full Process Structure
 The full process involves capturing images under wild lighting and processing them through WiDiNet and SCPS-NIR to obtain accurate normal maps.
+![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/697def45-df66-4c06-bc14-fe4090f56702)
+ a comparison of unions of subspaces of non-activated images before
+(a) and after (b) adding relighted images by the relighting module. The union of non-activated regions marked in black fully covers the
+total surface in case (b). Right: environmental lighting extraction process by the WtD module. The environmental map is element-wisely
+min-pooled from input wild light images. Then, the extracted environmental map is subtracted from the wild light images to generate WtD
+or directional light images.
+
 
 ## Environment Setup
 Refer to the respective GitHub repositories for environment setup instructions:
@@ -79,10 +86,6 @@ WiDiNet and SCPS-NIR mark a significant advancement in the field of photometric 
 
 ## Acknowledgments
 Special thanks are extended to the contributors of the PS-WL and DiLiGenT datasets, which have been instrumental in advancing the photometric stereo research.
-
-## Full Process Structure
-The full process involves capturing images under wild lighting and processing them through WiDiNet and SCPS-NIR to obtain accurate normal maps.
-![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/e94f1221-020e-4226-89a4-55c66c87318b)
 
 ## References
 TIP2022: IAN(Designing An Illumination-Aware Network for Deep Image Relighting) [Github](https://github.com/nk-cs-zzl/ian) [Paper](https://arxiv.org/abs/2207.10582) [Demos](https://github.com/nk-cs-zzl/ian#demos)<br/>
