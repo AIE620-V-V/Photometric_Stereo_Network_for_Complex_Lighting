@@ -39,6 +39,9 @@ Refer to the respective GitHub repositories for environment setup instructions:
 - WiDiNet: [IAN Repository](https://github.com/NK-CS-ZZL/IAN)
 - SCPS-NIR: [SCPS-NIR Repository](https://github.com/junxuan-li/SCPS-NIR)
 
+## Quick Test on Realwild2 main dataset
+```python run.py```
+
 ## Dataset and Evaluation
 The project employs various datasets to challenge and evaluate the effectiveness of the WiDiNet and SCPS-NIR methods under complex lighting conditions.
 
