@@ -87,4 +87,5 @@ The full process involves capturing images under wild lighting and processing th
 
 ## References
 TIP2022: IAN(Designing An Illumination-Aware Network for Deep Image Relighting) [Github](https://github.com/nk-cs-zzl/ian) [Paper](https://arxiv.org/abs/2207.10582) [Demos](https://github.com/nk-cs-zzl/ian#demos)
+
 ECCV2022: SCPS-NIR(Self-calibrating Photometric Stereo by Neural Inverse Rendering) [Github](https://github.com/junxuan-li/SCPS-NIR) [Paper](https://arxiv.org/abs/2207.07815)
