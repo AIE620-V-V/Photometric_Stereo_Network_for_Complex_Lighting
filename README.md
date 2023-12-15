@@ -26,8 +26,8 @@ A self-calibrating method that estimates both the lighting and the normals using
 
 ## Full Process Structure
 The full process involves capturing images under wild lighting and processing them through WiDiNet and SCPS-NIR to obtain accurate normal maps.
-![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/697def45-df66-4c06-bc14-fe4090f56702)
- a comparison of unions of subspaces of non-activated images before
+![image](https://github.com/AIE620-V-V/Photometric_Stereo_Network_for_Complex_Lighting/assets/46189116/697def45-df66-4c06-bc14-fe4090f56702)<
+A comparison of unions of subspaces of non-activated images before
 (a) and after (b) adding relighted images by the relighting module. The union of non-activated regions marked in black fully covers the
 total surface in case (b). Right: environmental lighting extraction process by the WtD module. The environmental map is element-wisely
 min-pooled from input wild light images. Then, the extracted environmental map is subtracted from the wild light images to generate WtD
