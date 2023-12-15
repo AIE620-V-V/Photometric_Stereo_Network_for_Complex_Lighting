@@ -36,7 +36,7 @@ or directional light images.
 
 ## Environment Setup
 Refer to the respective GitHub repositories for environment setup instructions:
-- WiDiNet: [IAN Repository](https://github.com/NK-CS-ZZL/IAN)
+- Relighting: [IAN Repository](https://github.com/NK-CS-ZZL/IAN)
 - SCPS-NIR: [SCPS-NIR Repository](https://github.com/junxuan-li/SCPS-NIR)
 
 ## Quick Test on Realwild2 main dataset
