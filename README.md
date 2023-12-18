@@ -46,8 +46,12 @@ Refer to the respective GitHub repositories for environment setup instructions:
 The project employs various datasets to challenge and evaluate the effectiveness of the WiDiNet and SCPS-NIR methods under complex lighting conditions.
 
 ### Datasets
-- **PS-WL Dataset**: A collection of images captured under wild lighting conditions, testing the robustness of the proposed methods.
-- **DiLiGenT Benchmark**: A comprehensive benchmark that features objects with diverse materials and textures, commonly used to evaluate photometric stereo methods.
+
+- **PS-WL Dataset:** Images under wild lighting to test method robustness.
+- **DiLiGenT Benchmark:** Diverse materials and textures for evaluating photometric stereo methods.
+- **Realwild2 Dataset:** Features 6 objects (ceramic, rubber, clear coat) with real-world complexity. Each object is presented in 15 detailed images, highlighting the dataset's emphasis on authentic data collection. Captured with a moving flashlight and a fixed 8-bit smartphone camera in natural indoor lighting, Realwild2 stands out for its practical, non-synthetic approach.
+
+
 
 ### Evaluation Metrics
 - **Mean Angular Error (MAE)**: Measures the accuracy of the estimated normals against the ground truth.
