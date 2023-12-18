@@ -49,7 +49,7 @@ The project employs various datasets to challenge and evaluate the effectiveness
 
 - **PS-WL Dataset:** Images under wild lighting to test method robustness.
 - **DiLiGenT Benchmark:** Diverse materials and textures for evaluating photometric stereo methods.
-- **Realwild2 Dataset:** Features 6 objects (ceramic, rubber, clear coat) with real-world complexity. Each object is presented in 15 detailed images, highlighting the dataset's emphasis on authentic data collection. Captured with a moving flashlight and a fixed 8-bit smartphone camera in natural indoor lighting, Realwild2 stands out for its practical, non-synthetic approach.
+- **Realwild2 Dataset[Authentically Gathered]:** Features 6 objects (ceramic, rubber, clear coat) with real-world complexity. Each object is presented in 15 detailed images, highlighting the dataset's emphasis on authentic data collection. Captured with a moving flashlight and a fixed 8-bit smartphone camera in natural indoor lighting, Realwild2 stands out for its practical, non-synthetic approach.
 
 
 
