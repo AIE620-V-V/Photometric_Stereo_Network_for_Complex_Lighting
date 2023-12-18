@@ -1,10 +1,9 @@
 # Photometric_Stereo_Network_for_Complex_Lighting
 > Sogang Univ AIE6202 project . Photometric Stereo Network for Complex Lighting
 
-## Abstract
+## Project Overview
 This project presents an innovative approach to the challenge of uncalibrated photometric stereo in complex lighting environments. It incorporates advanced methods such as **WiDiNet (Wild-to-Directional Network)** and **SCPS-NIR (Self-Calibrating Photometric Stereo by Neural Inverse Rendering)** to enhance the accuracy of surface normal estimation under varying illumination conditions.
 
-## Introduction
 Photometric stereo techniques traditionally rely on controlled lighting to estimate the surface normals of objects. However, real-world applications often involve complex and uncontrolled lighting conditions. This project introduces WiDiNet and SCPS-NIR to address these challenges, offering robust performance in diverse lighting scenarios.
 
 ## Theoretical Background
